@@ -1,16 +1,3 @@
-
-"""
-# MicropyGPS - a GPS NMEA sentence parser for Micropython/Python 3.X
-# Copyright (c) 2017 Michael Calvin McCoy (calvin.mccoy@protonmail.com)
-# The MIT License (MIT) - see LICENSE file
-""" 
- 
-# TODO:
-# Time Since First Fix
-# Distance/Time to Target
-# More Helper Functions
-# Dynamically limit sentences types to parse
- 
 from math import floor, modf
  
 # Import utime or time for fix time handling
